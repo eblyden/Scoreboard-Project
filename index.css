@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: grey;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    color: black;
+    background: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    font-size: 90px;
+    font-family: Cursed Timer ULiL;
+
+}
+
+button {
+    background: black;
+    border-color: #F94F6D;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    color: #F94F6D;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 2px;
+}
+
+.specialButtons {
+    margin: 10px;
+    width: 110px;
+    height: 50px;
+}
+
+.quarter {
+    margin: 30px;
+    font-size: 20px;
+}
+
+.quarterButtons {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 40px;
+}
