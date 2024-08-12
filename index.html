@@ -1,31 +1,40 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="column">
-                <h3>HOME</h3>
-                <h2 class="score" id="homeScore">0</h2>
-                <button id="homeB1" onclick="homeOne()">+1</button>
-                <button id="homeB2" onclick="homeTwo()">+2</button>
-                <button id="homeB3" onclick="homeThree()">+3</button>
-            </div>
-            <div class="column">
-                <h2 class="quarter" id="quarterNum">Quarter: 1</h2>
-                <button class="quarterButtons" id="previous" onclick="previousQuarter()">&lt;</button>
-                <button class="specialButtons" id="resetScores" onclick="resetGame()">Reset Game</button>
-                <button class="quarterButtons" id="next" onclick="nextQuarter()">&gt;</button>
-            </div>
-            <div class="column">
-                <h3>GUEST</h3>
-                <h2 class="score" id="guestScore">0</h2>
-                <button id="guestB1" onclick="guestOne()">+1</button>
-                <button id="guestB2" onclick="guestTwo()">+2</button>
-                <button id="guestB3" onclick="guestThree()">+3</button>
-            </div>
-            
-        </div>
-        <script src="index.js"></script>
-    </body>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+        <h3>HOME</h3>
+        <h2 class="score" id="homeScore">0</h2>
+        <button id="homeB1" onclick="homeOne()">+1</button>
+        <button id="homeB2" onclick="homeTwo()">+2</button>
+        <button id="homeB3" onclick="homeThree()">+3</button>
+      </div>
+      <div class="column">
+        <h2 class="quarter" id="quarterNum">Quarter: 1</h2>
+        <button
+          class="quarterButtons"
+          id="previous"
+          onclick="previousQuarter()"
+        >
+          &lt;
+        </button>
+        <button class="specialButtons" id="resetScores" onclick="resetGame()">
+          Reset Game
+        </button>
+        <button class="quarterButtons" id="next" onclick="nextQuarter()">
+          &gt;
+        </button>
+      </div>
+      <div class="column">
+        <h3>Away</h3>
+        <h2 class="score" id="guestScore">0</h2>
+        <button id="guestB1" onclick="guestOne()">+1</button>
+        <button id="guestB2" onclick="guestTwo()">+2</button>
+        <button id="guestB3" onclick="guestThree()">+3</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
